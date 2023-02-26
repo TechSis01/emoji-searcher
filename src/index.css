@@ -1,0 +1,61 @@
+html{
+  font-size:62.5%;
+}
+body{
+  font-size:1.6rem;
+  margin:0;
+  padding:0;
+  background-color: #264653;
+  font-family: 'Noto Sans', sans-serif;
+}
+
+.heading{
+  color:#fff;
+  text-align: center;
+}
+.emoji{
+  font-size: 3.0rem;
+}
+.App{
+  background-color: #e7c6ff;
+  width:50%;
+  margin:5em auto;
+  min-height: 300px;
+  padding:2em;
+  border-radius: 5px;
+}
+.emoji-container{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  justify-content: space-around;
+  place-items: center;
+  margin-top: 2em;
+
+}
+.input-container{
+  width:80%;
+  margin:0 auto;
+}
+.input-box{
+  width:60%;
+  padding:1em;
+  border:none;
+  outline:none;
+}
+.input-container button{
+  padding:0.9em;
+  font-family: 'Noto Sans', sans-serif;
+  font-weight: bold;
+  border:none;
+  outline:none;
+  cursor:pointer;
+}
+::placeholder{
+  font-family: 'Noto Sans', sans-serif;
+}
+.default-emoji-container{
+  display:flex;
+  justify-items: center;
+  flex-wrap: wrap;
+  align-items: center;
+}
